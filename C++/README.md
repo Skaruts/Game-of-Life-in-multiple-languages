@@ -1,0 +1,1 @@
+This project uses [SFML](https://www.sfml-dev.org/).
