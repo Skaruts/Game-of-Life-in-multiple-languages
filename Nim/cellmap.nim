@@ -9,12 +9,11 @@ var
     SH*:int = GH * CS    # screen height
     paused*:bool = false
 
-    pad:int = 1     # spacing around cells
+    # spacing around cells
+    pad:int = if CS > 2: 1 else: 0    # if cells are 2x2 px or smaller, disable padding, or else they'll be 0x0 px
     cell_color_alive = sf_Color("ff8000")
     cell_color_dead = sf_Color("202020")
     quads:VertexArray
-    render_states:RenderStates
-    cell_texture:Texture
     cellmaps:seq[seq[seq[int8]]]
     curr_buf = 1
     prev_buf = 0
@@ -33,12 +32,9 @@ proc update_quad(idx:int, color:Color ) =
 
 proc init_cells*() =
     quads = sf_VertexArray(PrimitiveType.Quads)
-    render_states = sf_RenderStates()
 
     cellmaps = new_seq[ seq[seq[int8]] ](2)
     cellmaps[curr_buf] = new_seq[ seq[int8] ](GH)
-
-    if CS < 4: pad = 0   # if cells are 2x2 px or smaller, disable padding, or else they'll be 0x0 px
 
     for j in 0..<GH:
         cellmaps[curr_buf][j] = new_seq[int8](GW)
@@ -99,4 +95,3 @@ proc render*(window:RenderWindow) =
 # clean up pointers
 proc destroy*() =
     quads.destroy()
-    cell_texture.destroy()
