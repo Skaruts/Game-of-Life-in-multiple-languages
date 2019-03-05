@@ -1,7 +1,7 @@
 import csfml, random, sequtils, sksfml
 
 var
-    m  :int = 8 #<-- scalar for determining cell and grid sizes
+    m  :int = 4 #<-- scalar for determining cell and grid sizes
     CS*:int = 16 div m   # cell size
     GW*:int = 80 * m     # grid width
     GH*:int = 50 * m     # grid height
@@ -38,7 +38,7 @@ proc init_cells*() =
     cellmaps = new_seq[ seq[seq[int8]] ](2)
     cellmaps[curr_buf] = new_seq[ seq[int8] ](GH)
 
-    if CS < 4: pad = 0
+    if CS < 4: pad = 0   # if cells are 2x2 px or smaller, disable padding, or else they'll be 0x0 px
 
     for j in 0..<GH:
         cellmaps[curr_buf][j] = new_seq[int8](GW)
