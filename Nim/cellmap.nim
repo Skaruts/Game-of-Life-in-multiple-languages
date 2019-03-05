@@ -25,10 +25,10 @@ proc toggle_pause*() =
 
 
 proc update_quad(idx:int, color:Color ) =
-    quads[idx+0] = sf_Vertex(quads[idx+0].position, color )
-    quads[idx+1] = sf_Vertex(quads[idx+1].position, color )
-    quads[idx+2] = sf_Vertex(quads[idx+2].position, color )
-    quads[idx+3] = sf_Vertex(quads[idx+3].position, color )
+    quads.getVertex(idx+0)[].color = color
+    quads.getVertex(idx+1)[].color = color
+    quads.getVertex(idx+2)[].color = color
+    quads.getVertex(idx+3)[].color = color
 
 
 proc init_cells*() =
