@@ -1,6 +1,8 @@
 require "cellmap"
 
-local m = 8
+-- scalar for cell and grid sizes
+local m = 8		-- use 1, 2, 4, 8 or 16 (4 or more will be slow)
+
 local CS = 16/m
 local GW = 80*m
 local GH = 50*m

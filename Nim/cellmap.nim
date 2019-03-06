@@ -1,7 +1,9 @@
 import csfml, random, sequtils, sksfml
 
 var
-    m  :int = 4 #<-- scalar for determining cell and grid sizes
+    # scalar for determining cell and grid sizes
+    m  :int = 4    # use 1, 2, 4, 8 or 16
+
     CS*:int = 16 div m   # cell size
     GW*:int = 80 * m     # grid width
     GH*:int = 50 * m     # grid height

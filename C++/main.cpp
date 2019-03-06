@@ -4,7 +4,9 @@
 bool paused = false;
 bool running = true;
 
-int m  = 4;     // scalar for cell and screen sizes
+// scalar for cell and screen sizes
+int m  = 4;     // use 1, 2, 4, 8 or 16
+
 int CS = (int)16/m;  // cell size
 int GW = 80*m;  // screen width
 int GH = 50*m;  // screen height
