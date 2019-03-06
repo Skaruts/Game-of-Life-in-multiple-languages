@@ -5,7 +5,7 @@ I'm gathering them in this repo, as I clean them up in my spare time.
 
 ---
 
-The [C++](./C++)/[Nim](./Nim)/[PySFML](./Python/pySFML) versions are just a bare bones GoL. 
+The [C++](./C++)/[Nim](./Nim)/[PySFML](./Python/PySFML) versions are just a bare bones GoL. 
 
 The [TIC-80](./Lua/TIC-80) (lua) version is a more intricate one. 
 
