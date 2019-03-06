@@ -5,8 +5,8 @@ I'm gathering them in this repo, as I clean them up in my spare time.
 
 ---
 
-The C++/Nim/PySFML versions are just a bare bones GoL. 
+The [C++](./C++)/[Nim](./Nim)/[PySFML](./Python/pySFML) versions are just a bare bones GoL. 
 
-The TIC-80 (lua) version is a more intricate one. 
+The [TIC-80](./Lua/TIC-80) (lua) version is a more intricate one. 
 
-The LOVE2D version is bare bones, but I could swear I had one with some of the same fun stuff from the TIC-80 version. Will add it here if I can dig it up.
+The [LOVE2D](./lua/LÖVE2D) version is bare bones, but I could swear I had one with some of the same fun stuff from the TIC-80 version. Will add it here if I can dig it up.
