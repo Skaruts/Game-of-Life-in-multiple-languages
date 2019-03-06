@@ -23,4 +23,4 @@ LOVE2D gives me ~40fps with `m=4`.
 
 PySFML gives me ~60-70 with... `m=1`... (either I did something wrong or...)
 
-TIC-80 can't have a very large grid (240x136) and is by design slower, and gives me ~20fps with `m=8` (8px cells, in this case).
+TIC-80 can't have a very large grid (240x136) and is by design slower, and gives me ~20fps with `m=8` (in this case `m=1` is 8px cells, so `m=8` is the smallest, 1px cells).
