@@ -21,6 +21,6 @@ Cpp/Nim versions give me ~20fps with m=1, and ~60-70fps with m=8.
 
 LOVE2D gives me ~30fps with m=8.
 
-PySFML gives me ~60-70 with... m=1...
+PySFML gives me ~60-70 with... m=1... (either I did something wrong or...)
 
 TIC-80 can't have a very large grid and is by design slower, and maxed at 240x136 (1px cells), goes up to ~20fps
