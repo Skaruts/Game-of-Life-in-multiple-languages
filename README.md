@@ -10,3 +10,14 @@ The [C++](./C++)/[Nim](./Nim)/[PySFML](./Python/PySFML) versions are just a bare
 The [TIC-80](./Lua/TIC-80) (lua) version is a more intricate one. 
 
 The [LOVE2D](./Lua/LÖVE2D/) version is bare bones, but I could swear I had one with some of the same fun stuff from the TIC-80 version. Will add it here if I can dig it up.
+
+---
+
+All of them use the same generation algorithm, which is the fastest I could come up with so far. Maybe one day I'll manage to wrap my head around [Tony Finch's algorithms](https://dotat.at/prog/life/life.html) or even hashlife, but for now this is the best I got. And I'm not unhappy with its performance. 
+
+All versions have a scalar variable 'm' that can be changed to make the cells smaller: m=1 makes cells of 16x16 px in a 80x50 grid, and m=16 makes cells of 1px in a 1280x800 grid.
+
+Cpp/Nim versions give me ~20fps with m=1, and ~60-70fps with m=8.
+LOVE2D gives me ~30fps with m=8.
+PySFML gives me ~60-70 with... m=1...
+TIC-80 can't have a very large grid and is by design slower, and maxed at 240x136 (1px cells), goes up to ~20fps
