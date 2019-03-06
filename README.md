@@ -17,7 +17,7 @@ All of them use the same generation algorithm, which is the fastest I could come
 
 All versions have a scalar variable 'm' that can be changed to make the cells smaller: m=1 makes cells of 16x16 px in a 80x50 grid, and m=16 makes cells of 1px in a 1280x800 grid.
 
-Cpp/Nim versions give me ~20fps with m=1, and ~60-70fps with m=8.
+Cpp/Nim versions give me ~20fps with m=16, and ~60-70fps with m=8.
 
 LOVE2D gives me ~30fps with m=8.
 
