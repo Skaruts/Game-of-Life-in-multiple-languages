@@ -21,7 +21,7 @@ proc handle_input(window:RenderWindow) =
 
 
 proc main() =
-    var window = sf_RenderWindow( video_mode(cint(SW), cint(SH)), "Font Editor (nim-csfml)" )
+    var window = sf_RenderWindow( video_mode(cint(SW), cint(SH)), "Game Of Life (nim-csfml)" )
     # window.vertical_sync_enabled = true
     window.framerateLimit = 60
     randomize(-1)
