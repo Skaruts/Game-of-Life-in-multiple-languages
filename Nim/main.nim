@@ -1,5 +1,5 @@
-import csfml, glm/vec, random
-import cellmap, sksfml
+import random
+import sksfml, cellmap
 
 
 proc handle_input(window:RenderWindow) =
@@ -10,24 +10,20 @@ proc handle_input(window:RenderWindow) =
                 window.close()
             of EventType.KeyPressed:
                 case event.key.code
-                    of KeyCode.Escape:
-                        window.close()
-                    of KeyCode.Q:
-                        window.close()
-                    of KeyCode.Enter:
-                        randomize_cells()
-                    of KeyCode.Space:
-                        toggle_pause()
+                    of KeyCode.Escape:  window.close()
+                    of KeyCode.Q:       window.close()
+                    of KeyCode.Enter:   randomize_cells()
+                    of KeyCode.Space:   toggle_pause()
                     of KeyCode.G:
                         if paused: next_generation()
-                    else: discard
+                    else:               discard
             else: discard
 
 
 proc main() =
-    var window = sf_RenderWindow( video_mode(cint(SW), cint(SH)), "Game Of Life (nim-csfml)" )
+    var window = sf_RenderWindow( video_mode(cint(SW), cint(SH)), "Font Editor (nim-csfml)" )
     # window.vertical_sync_enabled = true
-    # window.framerateLimit = 60
+    window.framerateLimit = 60
     randomize(-1)
 
     init_cells()
@@ -39,11 +35,13 @@ proc main() =
 
         window.clear(Black)
 
-        if not paused: next_generation()
+        if not paused:
+            next_generation()
         render(window)
 
         window.display()
 
-    destroy()
+    # clean up stuff
+    destroy() # cleans cellmap stuff
     window.destroy()
 main()
