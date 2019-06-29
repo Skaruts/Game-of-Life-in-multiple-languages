@@ -1,9 +1,8 @@
-import csfml, random, sequtils, sksfml
+import random, sequtils
+import sksfml
 
 var
-    # scalar for determining cell and grid sizes
-    m  :int = 4    # use 1, 2, 4, 8 or 16
-
+    m  :int = 4 #<-- scalar for determining cell and grid sizes
     CS*:int = 16 div m   # cell size
     GW*:int = 80 * m     # grid width
     GH*:int = 50 * m     # grid height
@@ -13,11 +12,12 @@ var
 
     # spacing around cells
     pad:int = if CS > 2: 1 else: 0    # if cells are 2x2 px or smaller, disable padding, or else they'll be 0x0 px
+
     cell_color_alive = sf_Color("ff8000")
     cell_color_dead = sf_Color("202020")
     quads:VertexArray
     cellmaps:seq[seq[seq[int8]]]
-    curr_buf = 1
+    curr_buf = 1    # cell buffer indices
     prev_buf = 0
 
 
@@ -47,7 +47,7 @@ proc init_cells*() =
             quads.append( sf_Vertex( sf_Vector2( (i+1)*CS-pad,  (j+1)*CS-pad ), cell_color_alive ) )
             quads.append( sf_Vertex( sf_Vector2(  i*   CS+pad,  (j+1)*CS-pad ), cell_color_alive ) )
 
-    cellmaps[prev_buf] = cellmaps[curr_buf] # don't need a deepcopy?
+    cellmaps[prev_buf] = cellmaps[curr_buf]
 
 
 proc randomize_cells*():void =
@@ -64,16 +64,15 @@ proc randomize_cells*():void =
 
 
 proc next_generation*(): void =
-    curr_buf = 1-curr_buf
+    curr_buf = 1-curr_buf   # switch buffers
     prev_buf = 1-prev_buf
 
     for j in 0..<GH:
         for i in 0..<GW:
-            let l :int = if i-1 >= 0:    i-1 else: GW-1
-            let r :int = if i+1 <  GW-1: i+1 else: 0
-
-            let u :int = if j-1 >= 0:    j-1 else: GH-1
-            let d :int = if j+1 <  GH:   j+1 else: 0
+            let u :int = if j-1 >= 0:    j-1 else: GH-1     # up
+            let d :int = if j+1 <  GH:   j+1 else: 0        # down
+            let l :int = if i-1 >= 0:    i-1 else: GW-1     # left
+            let r :int = if i+1 <  GW-1: i+1 else: 0        # right
 
             let n = cellmaps[prev_buf][ u   ][ l   ] +
                     cellmaps[prev_buf][ u   ][  i  ] +
@@ -84,8 +83,11 @@ proc next_generation*(): void =
                     cellmaps[prev_buf][   d ][  i  ] +
                     cellmaps[prev_buf][   d ][   r ]
 
+            # add option for highlife? (n==6 and cellmaps[prev_buf][j][i] == 0)
+
             let alive = n == 3 or (n==2 and cellmaps[prev_buf][j][i] == 1)
             cellmaps[curr_buf][j][i] = int8(alive)
+
             if alive:  update_quad((i+j*GW)*4, cell_color_alive)
             else:      update_quad((i+j*GW)*4, cell_color_dead)
 
