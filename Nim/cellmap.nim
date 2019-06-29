@@ -41,7 +41,6 @@ proc init_cells*() =
     for j in 0..<GH:
         cellmaps[curr_buf][j] = new_seq[int8](GW)
         for i in 0..<GW:
-            cellmaps[curr_buf][j].add(0)
             quads.append( sf_Vertex( sf_Vector2(  i*   CS+pad,   j*   CS+pad ), cell_color_alive ) )
             quads.append( sf_Vertex( sf_Vector2( (i+1)*CS-pad,   j*   CS+pad ), cell_color_alive ) )
             quads.append( sf_Vertex( sf_Vector2( (i+1)*CS-pad,  (j+1)*CS-pad ), cell_color_alive ) )
