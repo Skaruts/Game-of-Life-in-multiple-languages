@@ -1,4 +1,5 @@
 import csfml, strutils
+export csfml
 
 #############################################################
 # Just sort-of an interface to nim-csfml's functions, to
