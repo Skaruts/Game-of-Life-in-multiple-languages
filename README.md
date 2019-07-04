@@ -11,9 +11,9 @@ The [TIC-80](./Lua/TIC-80) (lua) version is a quite intricate one.
 
 The [LOVE2D](./Lua/LÖVE2D/) version is bare bones, but I could swear I had one with some of the same fun stuff from the TIC-80 version. Will add it here if I can dig it up.
 
----
-
 All of them use the same generation algorithm, which is the fastest I could come up with so far. Maybe one day I'll manage to wrap my head around [Tony Finch's algorithms](https://dotat.at/prog/life/life.html) or even hashlife, but for now this is the best I got. And I'm not unhappy with its performance. 
+
+---
 
 All versions have a scalar variable `m` that can be given the values `1`, `2`, `4`, `8` or `16`, to make the cells bigger/smaller, respectively: `m=1` makes cells of 16x16 pixels in a 80x50 grid, and `m=16` makes cells of 1 pixel in a 1280x800 grid.
 
