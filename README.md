@@ -21,6 +21,6 @@ Cpp/Nim versions give me ~20fps with `1px` cells, and ~60-70fps with `2px` cells
 
 LOVE2D gives me ~40fps with `4px` cells.
 
-PySFML gives me ~60-70 with... `16px` cells... (either I did something wrong or...)
+PySFML gives me ~60-70 with... `16px` cells... (Pretty bad. Either I did something wrong or...)
 
 TIC-80 can't have a very large grid (240x136) and is by design slower, and gives me ~20fps with `1px` cells (in this case the largest cells are `8px`, so the scalar `m` only goes up to `8` for `1px` cells).
