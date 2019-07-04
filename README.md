@@ -19,7 +19,7 @@ All versions have a scalar variable `m` that can be given the values `1`, `2`, `
 
 Cpp/Nim versions give me ~20fps with `m=16`, and ~60-70fps with `m=8`.
 
-LOVE2D gives me ~40fps with `m=4`. (I wasn't using sprite batching, though. I need to address that and test it then. Should become faster.)
+LOVE2D gives me ~40fps with `m=4`.
 
 PySFML gives me ~60-70 with... `m=1`... (either I did something wrong or...)
 
