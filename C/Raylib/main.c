@@ -1,7 +1,7 @@
 #include "raylib.h"
 
 // quick way to modify the size of the cells, grid and window in the same proportion
-// use values 1, 2, 4, 8 or 16 (higher means less performance)
+// use values 1, 2, 4, 8 or 16 (higher means smaller/more cells, and less performance)
 #define m 8
 
 #define CS 16/m     // cell size
