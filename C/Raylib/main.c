@@ -11,8 +11,8 @@
 Color dead_cell = DARKGRAY;
 Color alive_cell = ORANGE;
 
-bool draw_fps = true;
-bool draw_dead_cells = false; // quite taxing on perfomance
+bool show_fps = true;
+bool show_dead_cells = false; // quite taxing on perfomance
 bool paused = false;
 
 int prev_buf = 0;    // to alternate between cell buffers
@@ -34,6 +34,17 @@ void randomize_cells() {
             }
         }
     }
+}
+void draw_fps(int posX, int posY, int fontSize, Color color) {
+    static int fps = 0, counter = 0, refreshRate = 20;
+    if (counter < refreshRate)
+        counter++;
+    else {
+        fps = GetFPS();
+        refreshRate = fps;
+        counter = 0;
+    }
+    DrawText(TextFormat("%i FPS", fps), posX, posY, fontSize, color);
 }
 void init_cells() {
     pad = 1;
@@ -89,7 +100,7 @@ void handle_input() {
         running = false;
     if (IsKeyPressed(KEY_SPACE))                    paused = !paused;
     if (IsKeyPressed(KEY_ENTER))                    randomize_cells();
-    if (IsKeyPressed(KEY_F1))                       draw_fps = !draw_fps;
+    if (IsKeyPressed(KEY_F1))                       show_fps = !show_fps;
 
     if (paused) {
         if (IsKeyPressed(KEY_G)) pass_generation();
@@ -117,10 +128,10 @@ int main() {
         for(int j = 0; j < GH; j++) {
             for(int i = 0; i < GW; i++) {
                 if (cells[curr_buf][j][i]) DrawRectangleRec(quads[j][i], alive_cell);
-                else if (draw_dead_cells)  DrawRectangleRec(quads[j][i], dead_cell);
+                else if (show_dead_cells)  DrawRectangleRec(quads[j][i], dead_cell);
             }
         }
-        if (draw_fps) { DrawFPS(10, 10); }
+        if (show_fps) { draw_fps(10, 10, 24, YELLOW); }
         EndDrawing();
     }
     CloseWindow();
