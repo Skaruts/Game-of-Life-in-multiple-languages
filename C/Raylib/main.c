@@ -100,20 +100,20 @@ void handle_input() {
 int main() {
     // set window size according to grid and cell sizes
     // (makes a 1280x800 window if only the value of 'm' is tinkered with)
-	int screenWidth = GW*CS;
-	int screenHeight = GH*CS;
+    int screenWidth = GW*CS;
+    int screenHeight = GH*CS;
 
-	InitWindow(screenWidth, screenHeight, "Game of Life, by Skaruts (Raylib - C)");
-	SetTargetFPS(60);
+    InitWindow(screenWidth, screenHeight, "Game of Life, by Skaruts (Raylib - C)");
+    SetTargetFPS(60);
     running = true;
 
     init_cells();
 
-	while (running) {
+    while (running) {
         handle_input();
 
-		BeginDrawing();
-		ClearBackground(BLACK);
+        BeginDrawing();
+        ClearBackground(BLACK);
         for(int j = 0; j < GH; j++) {
             for(int i = 0; i < GW; i++) {
                 if (cells[curr_buf][j][i]) DrawRectangleRec(quads[j][i], alive_cell);
@@ -121,9 +121,9 @@ int main() {
             }
         }
         if (draw_fps) { DrawFPS(10, 10); }
-		EndDrawing();
-	}
-	CloseWindow();
-	return 0;
+        EndDrawing();
+    }
+    CloseWindow();
+    return 0;
 }
 
