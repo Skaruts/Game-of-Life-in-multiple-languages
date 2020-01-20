@@ -19,21 +19,6 @@ gdobj Cellmap of Node2D:
 
     # this is not gdscript's _init()
     proc init*(w, h, cell_size:int, spawn_rate = 50, draw_dead_cells = false) {.gdExport.} =
-        let cti:Color = col(0, 1,1,1)
-
-        let ctf:Color = col(0,0.5,0.5,0.5)
-        let ic:Color = col(0x000000ff)
-        let hc8:Color = col("000000ff")
-        let hc7:Color = col("000000f")
-        let hc6:Color = col("000000")
-
-        print("cti    r:", cti.r, ", g:", cti.g, ", b:", cti.b, ", a:", cti.a)
-        print("ctf    r:", ctf.r, ", g:", ctf.g, ", b:", ctf.b, ", a:", ctf.a)
-        print("ic    r:", ic.r, ", g:", ic.g, ", b:", ic.b, ", a:", ic.a)
-        print("hc8   r:", hc8.r, ", g:", hc8.g, ", b:", hc8.b, ", a:", hc8.a)
-        print("hc7   r:", hc7.r, ", g:", hc7.g, ", b:", hc7.b, ", a:", hc7.a)
-        print("hc6   r:", hc6.r, ", g:", hc6.g, ", b:", hc6.b, ", a:", hc6.a)
-
         self.spawn_rate = spawn_rate
         self.draw_dead_cells = draw_dead_cells
 
