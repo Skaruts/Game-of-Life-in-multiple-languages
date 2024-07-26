@@ -1,3 +1,9 @@
-This project was made in [TIC-80](https://tic.computer) tiny computer, and is available to play online or for download [at the TIC-80 website](https://tic.computer/play?cart=753), and also [on itch.io](https://metaldudebro.itch.io/tiny-life). Due to the free version of TIC-80 having a character limit the code is shortened, and perhaps a bit cryptic.
+# Tiny Life (TIC-80)
 
-This is by far the most complete Game of Life I've made so far, with a UI, drawing tools, cell counts, help screens, and all that good stuff.
+The up-to-date code for this project exists [in its own repo](https://github.com/Skaruts/Tiny-Life). It was made in [TIC-80](https://tic.computer) tiny computer, and is available to play online or for download [at the TIC-80 website](https://tic.computer/play?cart=753), and also for download [on itch.io](https://skaruts.itch.io/tiny-life).
+
+It was made to be more of a fun thing to play with than an a mere simulation. It has a GUI, drawing tools, a crude time scale, cell counts, help screens, and all that good stuff.
+
+The code is a bit cryptic, though. This was initially written in version 0.70 of TIC-80, the free version of which had a limit to how much code you could write (~64k characters). As a result, I had to shorten the code as much as possible, and make it cryptic.
+
+
