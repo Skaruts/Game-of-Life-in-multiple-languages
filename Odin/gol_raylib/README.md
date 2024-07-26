@@ -6,7 +6,7 @@ I found some articles a few years ago about GoL, written by Eric Clippert (see b
 
 You can paint/erase cells with the mouse buttons, pause with `Space`, randomize the board with `R`, clear or fill the grid with `C` or `F`
 
-(If there are different variations of the same algorithm, it's just my way of keeping in mind alternative ways to do something, for later reference).
+(If there are different variations of the same algorithm, it's just my way of keeping in mind alternative ways to do something (in Odin), for later reference).
 
 ### The Articles
 
