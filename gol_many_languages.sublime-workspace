@@ -1,0 +1,1398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"eevnt",
+				"events"
+			],
+			[
+				"miss",
+				"missions_path"
+			],
+			[
+				"SETTING",
+				"SETTINGS_FILE"
+			],
+			[
+				"border",
+				"border_width"
+			],
+			[
+				"run_m",
+				"run_main_menu_bar"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"update",
+				"update_from_dict"
+			],
+			[
+				"cop",
+				"copy_files"
+			],
+			[
+				"ign",
+				"ignored_folders"
+			],
+			[
+				"totl",
+				"total_time"
+			],
+			[
+				"tot",
+				"total_time"
+			],
+			[
+				"usa",
+				"usage_error"
+			],
+			[
+				"tdm_",
+				"tdm_mapsequence.txt"
+			],
+			[
+				"os",
+				"os.path.isfile"
+			],
+			[
+				"print_",
+				"print_quick_usage"
+			],
+			[
+				"VALID_",
+				"VALID_HELP_ARGS"
+			],
+			[
+				"igno",
+				"ignored_files"
+			],
+			[
+				"mapf",
+				"map_files"
+			],
+			[
+				"pth",
+				"os.path.join"
+			],
+			[
+				"curr",
+				"curr_path"
+			],
+			[
+				"url",
+				"urllib"
+			],
+			[
+				"Vec",
+				"Vector3"
+			],
+			[
+				"inver_",
+				"invert_rear_wheels"
+			],
+			[
+				"rear_s",
+				"rear_steer"
+			],
+			[
+				"_f",
+				"_fixed_positions"
+			],
+			[
+				"steering",
+				"steering_left"
+			],
+			[
+				"targ",
+				"target"
+			],
+			[
+				"global",
+				"global_transform"
+			],
+			[
+				"Vect",
+				"Vector2"
+			],
+			[
+				"unprojec",
+				"unproject_position"
+			],
+			[
+				"_check",
+				"_check_colors"
+			],
+			[
+				"A",
+				"ACKERMANN"
+			],
+			[
+				"get_ac",
+				"get_ackermann_steer_vals"
+			],
+			[
+				"reva",
+				"res_val"
+			],
+			[
+				"_set_fla",
+				"_set_flag_x"
+			],
+			[
+				"thro",
+				"throttle"
+			],
+			[
+				"lock_",
+				"lock_front_wheels"
+			],
+			[
+				"Gener",
+				"Generic6DOFJoint.PARAM_LINEAR_RESTITUTION"
+			],
+			[
+				"lf_",
+				"lf_bodies"
+			],
+			[
+				"spin",
+				"spinbox"
+			],
+			[
+				"fornste",
+				"front_steer_dir"
+			],
+			[
+				"turn_",
+				"turn_input"
+			],
+			[
+				"steer",
+				"steer_value"
+			],
+			[
+				"num_chu",
+				"num_chunks_x"
+			],
+			[
+				"upda",
+				"updated_cells"
+			],
+			[
+				"chun",
+				"chunks_offset_y"
+			],
+			[
+				"chu",
+				"chunks_loaded"
+			],
+			[
+				"get_view",
+				"get_viewport"
+			],
+			[
+				"MAT_NO",
+				"MAT_NO_DEPTH"
+			],
+			[
+				"DOUBLE",
+				"MAT_DOUBLE_SIDED"
+			],
+			[
+				"MATS",
+				"MAT_NO_SHADOWS"
+			],
+			[
+				"blend",
+				"blend_mode"
+			],
+			[
+				"BEL",
+				"BLEND_MIX"
+			],
+			[
+				"ble",
+				"blend_mode"
+			],
+			[
+				"BLEND",
+				"BLEND_ADD"
+			],
+			[
+				"conti",
+				"continue"
+			],
+			[
+				"normali",
+				"normalized"
+			],
+			[
+				"ori",
+				"origin"
+			],
+			[
+				"trna",
+				"transform"
+			],
+			[
+				"vertex",
+				"vertex_albedo"
+			],
+			[
+				"set_mater",
+				"set_material_params"
+			],
+			[
+				"MAT",
+				"MAT_NO_DEPTH"
+			],
+			[
+				"MAT_BL",
+				"MAT_BLEND_MIX"
+			],
+			[
+				"Mesh",
+				"MeshUtils"
+			],
+			[
+				"Spatia",
+				"SpatialMaterial"
+			],
+			[
+				"edges",
+				"edges_dt"
+			],
+			[
+				"interse",
+				"intersects_ray"
+			],
+			[
+				"intersec",
+				"intersection"
+			],
+			[
+				"distance",
+				"distance_to"
+			],
+			[
+				"rotate",
+				"rotated"
+			],
+			[
+				"batc",
+				"batch_clines"
+			],
+			[
+				"Visual",
+				"VisualServer"
+			],
+			[
+				"draw_mu",
+				"draw_multiline"
+			],
+			[
+				"unpro",
+				"unproject_position"
+			],
+			[
+				"_draw_",
+				"_draw_multilines"
+			],
+			[
+				"top_",
+				"top_tmp"
+			],
+			[
+				"draw_po",
+				"draw_polyline"
+			],
+			[
+				"inser",
+				"insert"
+			],
+			[
+				"du",
+				"duplicate"
+			],
+			[
+				"verts_",
+				"verts_top"
+			],
+			[
+				"cl",
+				"clear_bones"
+			],
+			[
+				"Command",
+				"CommandKinds"
+			],
+			[
+				"Pool",
+				"PoolVector2Array"
+			],
+			[
+				"V",
+				"Variant"
+			],
+			[
+				"godo",
+				"godotArray"
+			],
+			[
+				"_upda",
+				"_update_settings"
+			],
+			[
+				"set_mot",
+				"set_motor"
+			],
+			[
+				"GR",
+				"GRID_256"
+			],
+			[
+				"_c",
+				"_curr_size_idx"
+			],
+			[
+				"_s",
+				"_sizes"
+			],
+			[
+				"grid1",
+				"grid_16_limit"
+			],
+			[
+				"_currz",
+				"_curr_zoom_step"
+			],
+			[
+				"MAX_Z",
+				"MAX_ZOOM"
+			],
+			[
+				"MIN",
+				"MIN_ZOOM"
+			],
+			[
+				"zoom_s",
+				"zoom_step"
+			],
+			[
+				"_curr",
+				"_curr_zoom"
+			],
+			[
+				"GRID_",
+				"GRID_64"
+			],
+			[
+				"GRI",
+				"GRID_64"
+			],
+			[
+				"MAX_GR",
+				"MAX_GRIDS"
+			],
+			[
+				"is_action",
+				"is_action_pressed"
+			],
+			[
+				"Input",
+				"InputEvent"
+			],
+			[
+				"Max",
+				"MAX_GRIDS+1"
+			],
+			[
+				"_curre",
+				"_curr_size"
+			],
+			[
+				"color_",
+				"color_grid_1"
+			],
+			[
+				"_cure",
+				"_current_face"
+			],
+			[
+				"_curren",
+				"_current_face"
+			],
+			[
+				"SET",
+				"SETUP_DRAGGING"
+			],
+			[
+				"collision",
+				"collision_mask"
+			],
+			[
+				"get_mous",
+				"get_mouse_position"
+			],
+			[
+				"_coll_",
+				"_coll_plane"
+			],
+			[
+				"project",
+				"project_ray_origin"
+			],
+			[
+				"_star",
+				"_start_dragging"
+			],
+			[
+				"_dr",
+				"_dragging_handle"
+			],
+			[
+				"_tun",
+				"_turn_off_body"
+			],
+			[
+				"_drag",
+				"_drag_plane"
+			],
+			[
+				"func",
+				"funcref"
+			],
+			[
+				"Inp",
+				"InputEventMouseButton"
+			],
+			[
+				"clip",
+				"click_position"
+			],
+			[
+				"_initd",
+				"_initial_drag_pos"
+			],
+			[
+				"North",
+				"NORTH"
+			],
+			[
+				"Inputm",
+				"InputEventMouseMotion"
+			],
+			[
+				"set_proces",
+				"set_process_unhandled_input"
+			],
+			[
+				"_dar",
+				"_dragging_handle"
+			],
+			[
+				"inter",
+				"intersections.append"
+			],
+			[
+				"Sta",
+				"StaticBody"
+			],
+			[
+				"MAT_",
+				"MAT_DOUBLE_SIDED"
+			],
+			[
+				"_reset_",
+				"_reset_mesh"
+			],
+			[
+				"Vector",
+				"Vector3"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Love2D"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				],
+				[
+					"Packages/TIC-80/TIC-80.sublime-build",
+					""
+				],
+				[
+					"Packages/TIC-80/TIC-80_modules.sublime-build",
+					""
+				],
+				[
+					"Packages/User/love-run.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Lua/Lua.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/MagicPython/settings/sublime/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/MagicPython/settings/sublime/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/MagicPython/settings/sublime/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/MagicPython/settings/sublime/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/MagicPython/settings/sublime/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/TIC-80/TIC-80.sublime-build",
+					""
+				],
+				[
+					"Packages/TIC-80/TIC-80_modules.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/MagicPython/settings/sublime/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					""
+				],
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/NimLime/Support/Nim.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					""
+				],
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					"Release"
+				],
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					"Rebuild-Debug"
+				],
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					"Rebuild-Release"
+				],
+				[
+					"Packages/TIC-80/TIC-80.sublime-build",
+					""
+				],
+				[
+					"Packages/TIC-80/TIC-80_modules.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/NimLime/Support/Nim.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					""
+				],
+				[
+					"Packages/NimLime/Support/Nim.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/TIC-80/TIC-80.sublime-build",
+					""
+				],
+				[
+					"Packages/TIC-80/TIC-80_modules.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/NimLime/Support/Nim.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					""
+				],
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					"JSON"
+				],
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					"Property List"
+				],
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					"YAML (Block Style)"
+				],
+				[
+					"Packages/PackageDev/Support/Convert to ....sublime-build",
+					"YAML (Default Style)"
+				]
+			],
+			[
+				"Packages/PackageDev/Support/Convert to ....sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/love2d.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"syntax",
+				"Set Syntax: Git"
+			],
+			[
+				"syntax ",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"syntax git",
+				"Set Syntax: Git"
+			],
+			[
+				"packupd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"colorscheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"edthem",
+				"PackageDev: Edit Current Theme"
+			],
+			[
+				"edcolosc",
+				"PackageDev: Edit Current Color Scheme"
+			],
+			[
+				"colorsc",
+				"PackageDev: Edit Current Color Scheme"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"packupda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"uninstal",
+				"Nim: Uninstall Nimble Package"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"pacup",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"mm",
+				"View: Toggle Minimap"
+			],
+			[
+				"resvi",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"pckv",
+				"PackageResourceViewer: View Package Resource"
+			],
+			[
+				"packre",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"packsvie",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"res",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"color sc",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"packres",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"syntax lu",
+				"Set Syntax: Lua (Love)"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"packdis",
+				"Package Control: Disable Package"
+			],
+			[
+				"packen",
+				"Package Control: Enable Package"
+			],
+			[
+				"packena",
+				"Package Control: Enable Package"
+			],
+			[
+				"pacd",
+				"Package Control: Disable Package"
+			],
+			[
+				"pacremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packd",
+				"Package Control: Disable Package"
+			],
+			[
+				"prved",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 466.0
+	},
+	"console":
+	{
+		"height": 318.0,
+		"history":
+		[
+			"(1.5*100)/1.5",
+			"(0.75*100)/1.5",
+			"(0.75*1.5)/100",
+			"(1.5*100)/100",
+			"1.5*100",
+			"1.5*100/100",
+			"0.75/100",
+			"1.5/100",
+			"1<<4",
+			"1800/60",
+			"208/16",
+			"208/15",
+			"208/14",
+			"208/12",
+			"480 - (480*0.005)",
+			"640 - (640*0.005)",
+			"480 - (480*0.1)",
+			"640 - (640*0.1)",
+			"3401+110",
+			"256-146",
+			"60+93+15",
+			"0.375*72",
+			"18*4",
+			"18/48",
+			"266*2",
+			"2+3/6",
+			"3+2/6",
+			"6/3+2",
+			"6/3+1",
+			"6/2+3",
+			"6/(1+2)*2",
+			"6/2*(1+2)",
+			"(2*(1+2))/6",
+			"2*(1+2)/6",
+			"6/2*(1+2)",
+			"6**6",
+			"6**5",
+			"180-112",
+			"-360+112",
+			"-360-112",
+			"360-112",
+			"-360+179",
+			"360+-179",
+			"-360+179",
+			"360+-179",
+			"-360+179",
+			"360+-179",
+			"180+-179",
+			"'1' == \"1\"",
+			"'1' == 1",
+			"'1\" == 1",
+			"\"1\" == 1",
+			"\"texto\"",
+			"bin('0xffffffff')",
+			"bin(0xffffffff)",
+			"bin(4294967295)",
+			"bin(_)",
+			"hex(_)",
+			"0xffffffff",
+			"_",
+			"4+1",
+			"_",
+			"2312322",
+			"_",
+			"dsds",
+			"_",
+			"hex(_)",
+			"0xffffffff",
+			"0xfffffff",
+			"0xffffff",
+			"0x11111",
+			"0b11111",
+			"(4 * sin(30) * -1 * sin(30)) + (1 * cos(30) + 4 * sin(30)) * i",
+			"1000000000 * 7000000000",
+			"1 000 000 000 * 7 000 000 000",
+			"-5 > -10",
+			"60.0*(1.0/60.0)",
+			"62.0*(1.0/60.0)",
+			"63.0*(1.0/60.0)",
+			"64.0*(1.0/60.0)",
+			"66.0*(1.0/60.0)",
+			"100.0*(1.0/60.0)",
+			"255.0*(1.0/60.0)",
+			"14.0*(1.0/60.0)",
+			"4.0*(1.0/60.0)",
+			"1/60",
+			"4.0*(1.0/60.0)",
+			"4.0*(1/60)",
+			"4.0*0.016",
+			"4.0/0.016",
+			"-1--0.3",
+			"1--0.3",
+			"1-0.3",
+			"128/255",
+			"1*1.15",
+			"0.329+0.163",
+			"0.163-0.329",
+			"18432/32",
+			"288+288",
+			"29.9*30",
+			"1920-720",
+			"20000*50",
+			"24000*50",
+			"25000*50",
+			"50000*50",
+			"5000*50",
+			"1000*50",
+			"1000*20",
+			"10000*10",
+			"1000*100",
+			"100*100",
+			"100*10",
+			"1.1/2",
+			"16*16",
+			"32*32",
+			"3500/4",
+			"3500/2",
+			"(3500/4)/16",
+			"437/16",
+			"3500/8",
+			"20/16",
+			"432*224",
+			"16*14",
+			"225/16",
+			"1800/8",
+			"3500/8",
+			"16*27",
+			"437/16"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/work/programming/!- REPOS/Game-of-Life-in-multiple-languages"
+	],
+	"file_history":
+	[
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/gui.py",
+		"/C/work/programming/godot_4/projects/APPS/tdm_packer_2_priv_project/README.md",
+		"/D/apps/yt-dlp/dl.bat",
+		"/C/work/programming/godot_4/projects/APPS/tdm_packer_2_priv_project/.gitignore",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/readme.txt",
+		"/D/Jogos/- Indie/darkmod/- DOWNLOADS/__automation/automation_15643/automation/automation.py",
+		"/D/apps/yt-dlp/dlo2.bat",
+		"/C/work/programming/godot_4/projects/APPS/tdm_packer_2_priv_project/exports/debug/data/missions.json",
+		"/C/work/programming/godot_4/projects/APPS/tdm_packer_2_priv_project/exports/debug/data/settings.cfg",
+		"/C/work/programming/godot_4/projects/APPS/tdm_packer_2_project/.gitignore",
+		"/D/Jogos/- Indie/darkmod/fm_packer/fm_packer_repo/README.md",
+		"/D/Jogos/- Indie/darkmod/fm_packer/fm_packer_repo/dmpak.py",
+		"/C/work/programming/godot_4/projects/APPS/tdm_fm_packer/project/data/missions.json",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/xdata/briefing.xd",
+		"/C/work/programming/godot_4/projects/APPS/tdm_fm_packer/project/scripts/main.gd",
+		"/C/work/programming/godot_4/projects/APPS/tdm_fm_packer/project/scripts/autoload/data.gd",
+		"/C/work/programming/godot_4/projects/APPS/tdm_fm_packer/project/scripts/utils/set.gd",
+		"/C/work/programming/godot_4/projects/APPS/tdm_fm_packer/project/scripts/mission.gd",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/main.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/app.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/config.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/fmpak2.py",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/.pkignore",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/xdata/pirate_cove.xd",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/.gitignore",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/gui_funcs.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/settings_funcs.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/mission.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/layouts.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/json_funcs.py",
+		"/C/work/programming/godot_4/projects/APPS/tdm_fm_packer/project/.gitignore",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/materials/window_custom.mtr",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/startingmap.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/xdata/signs_test.xd",
+		"/C/work/programming/godot_4/projects/APPS/tdm_fm_packer/project/resources/syntax_highlighters/code_highlighters_config.gd",
+		"/C/work/programming/godot_4/projects/APPS/tdm_fm_packer/project/resources/syntax_highlighters/syntax_config.gd",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/maps/cookbook.map",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/def/custom.def",
+		"/C/work/programming/godot_4/projects/1st_person/meat_shop/tbloader_config.cfg",
+		"/D/Jogos/- Indie/darkmod/- DOWNLOADS/__automation/automation_15643/readme.md",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/data.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/TODO.txt",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/data/settings.json",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/data/missions.json",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/pysimplegui_custom.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer/fm_packer_repo/fmpak.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/tests/demo_theme_color_swatches.py",
+		"/C/Temp/pysimplegui/PySimpleGUI/PySimpleGUI.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/tests/vector.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/utils.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/imgui.ini",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/README.md",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/tests/imgui_fonts.py",
+		"/D/Jogos/- Indie/darkmod/fm_packer_2/fm_copy.py",
+		"/C/Users/Skaruts/Downloads/instas/igd.py",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/_docs/TODO_rnt1.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/_docs/house_rooms_list.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/qconsole.log",
+		"/D/Jogos/- Indie/darkmod/fm_packer/fm_packer_meta/FMPAK_TODO.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/_docs/TODO_PIRATES.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/_docs/mission1 - marriage.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/_docs/DESIGN_rtn.txt",
+		"/D/Jogos/- Indie/darkmod/tdm_mapper_essentials.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/_docs/book_of_pirates.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/.gitignore",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/pack.bat",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12_for_fm_tests/fms/sk_cooks/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/materials/tdm_windows.mtr",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/_DEPRECATED/cookbook_BAK1.xd",
+		"/C/Users/Skaruts/Desktop/recovery/sk_cooks2/_DEPRECATED/cookbook_BAK1.xd",
+		"/C/Users/Skaruts/Desktop/recovery/sk_cooks2/_docs/TODO_cookbook.txt",
+		"/C/Users/Skaruts/Desktop/recovery/sk_cooks2/startingmap.txt",
+		"/C/Users/Skaruts/Desktop/recovery/sk_cooks2/DarkRadiant - By The Cookbook.lnk",
+		"/C/Users/Skaruts/Desktop/recovery/sk_cooks2/.pkignore",
+		"/C/Users/Skaruts/Desktop/recovery/sk_cooks2/qconsole.log",
+		"/C/Users/Skaruts/Desktop/recovery/sk_cooks2/readme.txt",
+		"/C/Users/Skaruts/Desktop/recovery/sk_cooks2/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/_docs/TODO_cookbook.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/fmpak.py",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/nhat3/nhat3.pk4",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/pkcfg.py",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/materials/custom.mtr",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/_docs/animations.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_tutorial_mission/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn3/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn2/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_robthyneighb_OLD/skins/ska_hedge_wall.skin",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/Darkmod.cfg",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_rtn1/TODO_rnt1.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_robthyneighb_OLD/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/DarkmodKeybinds.cfg",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/difficulty_specs.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/TODO_cookbook.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/guis/map/cookbook.gui",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/def/tdm_ai_animal_rat.def",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/maps/cookbook.script",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/windowed_mode.cfg",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/xdata/cookbook.xd",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/skins/ska_decorative_wall.skin",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/guis/mainmenu_briefing.gui",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/score_to_settle/xdata/spring11.xd",
+		"/C/Users/Skaruts/google_drive/Programming/godot_4/gd4.bat",
+		"/C/Users/Skaruts/google_drive/Programming/godot_4/projects/APPS/miss-database-2/miss_db.bat",
+		"/C/Users/Skaruts/AppData/Roaming/DarkRadiant/3.8/input.xml",
+		"/C/Users/Skaruts/AppData/Roaming/DarkRadiant/3.8/user.xml",
+		"/C/Users/Skaruts/AppData/Roaming/DarkRadiant/3.8/filters.xml",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/maps/cookbook.script.BAK1",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12 - patched/fms/missions.tdminfo",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/xdata/cookbook_BAK1.xd",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/materials/light_custom.mtr",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/maps/cookbook.proc",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/materials/tdm_light_textures.mtr",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/missions.tdminfo",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12 - patched/fms/sk_cooks/darkmod.txt",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/fms/sk_cooks/TODO.txt",
+		"/C/Users/Skaruts/google_drive/Programming/godot_4/projects/1st_person/TESTS/tb_loader_test/assets/materials/metal.mtr",
+		"/C/Users/Skaruts/google_drive/Programming/godot_4/projects/1st_person/TESTS/tb_loader_test/textures/tex_decls.mtr",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12 - fresh/autocommands.cfg",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12 - fresh/Darkmod.cfg",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/autocommands.cfg",
+		"/C/Users/Skaruts/google_drive/Programming/godot_4/projects/3D/1st_person/TESTS/tb_loader_cpp_compile_test/godot-tbloader/SConstruct",
+		"/C/Users/Skaruts/google_drive/Programming/!-ASSETS/Textures/512px/resize_command.bat",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12 - patched/tdm_lights_static_electric.def",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_12/tdm_lights_static_electric.def",
+		"/D/Jogos/- Indie/darkmod/darkmod_2_10_dev/fms/sk_robthyneighb/xdata/briefing.xd"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 131.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 271.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 156.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 424.0
+	},
+	"pinned_build_system": "",
+	"project": "gol_many_languages.sublime-project",
+	"replace":
+	{
+		"height": 60.8
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"menu",
+				"silly-ui\\apps\\map_editor\\menu_bars.nim"
+			],
+			[
+				"ww",
+				"Roguelikes\\RL_02\\scripts\\WorldGen\\Hallway.gd"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "odin",
+		"selected_items":
+		[
+			[
+				"odin",
+				"I:\\Programming\\Odin\\odin.sublime-project"
+			],
+			[
+				"sillylib",
+				"I:\\Programming\\Lua\\LOVE\\roguelikes\\_sillylib\\sillylib-lua.sublime-workspace"
+			],
+			[
+				"godot",
+				"C:\\Godot\\Godot-Nim\\RL_Consoles_Test\\rl_consoles_test.sublime-project"
+			],
+			[
+				"",
+				"D:\\apps\\TIC 80\\tic-80-proj.sublime-project"
+			],
+			[
+				"fantasy",
+				"I:\\Programming\\Lua\\LOVE\\Fantasy Computers\\fantasy-computers.sublime-project"
+			],
+			[
+				"source",
+				"C:\\Users\\Skaruts\\Google Drive\\Programming\\!-Sources\\source-codes.sublime-workspace"
+			],
+			[
+				"tic",
+				"D:\\apps\\TIC 80\\tic-80-proj.sublime-project"
+			]
+		],
+		"width": 776.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

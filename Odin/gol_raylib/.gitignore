@@ -1,0 +1,6 @@
+*.exp
+*.bat
+*.exe
+*.lib
+*.pdb
+*.txt
