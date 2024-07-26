@@ -1,12 +1,16 @@
 # Game of Life algorithms writen in Odin / Raylib
 
-###### Note: For information about Odin, check the [my other GoL in Odin](TODO) project.
+###### Note: For information about Odin, check [my other GoL in Odin](https://github.com/Skaruts/Game-of-Life-in-multiple-languages/tree/master/Odin/single_file_gol_raylib) project.
 
-I wrote this version of Odin GoL following the articles writen by Eric Clippert. I may keep doing it as I feel like it, as a way to practice coding in Odin. (If there are different variations of the same algorithm, it's just my way of keeping in mind alternative ways to do something, for later reference).
+I found some articles a few years ago about GoL, written by Eric Clippert (see below), that I've been meaning to code-along with all the way through. After having made my first GoL in Odin, I felt the drive to keep going, so I started following Eric's articles. This version of GoL is where I left off so far. I may keep doing it over time, as I feel like it, but no guarantees. I'm not known for finishing projects.
 
 You can paint/erase cells with the mouse buttons, pause with `Space`, randomize the board with `R`, clear or fill the grid with `C` or `F`
 
-Eric Clippert's articles are by far the most comprehensive and complete GoL programming guide I ever came across (all algorithms explained, as well as the logical progression between them):
+(If there are different variations of the same algorithm, it's just my way of keeping in mind alternative ways to do something, for later reference).
+
+### The Articles
+
+Eric Clippert's articles are by far the most comprehensive and complete GoL programming guide I have ever came across. All algorithms explained, as well as the logical progression between them, and how they relate to each other. I strongly recommend.
 
 [Part 1](https://ericlippert.com/2020/04/13/life-part-1/) |
 [Part 2](https://ericlippert.com/2020/04/20/life-part-2/) |
